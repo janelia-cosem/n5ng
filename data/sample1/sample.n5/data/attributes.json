@@ -1,0 +1,13 @@
+{
+    "downsamplingFactors": [
+        2,
+        2,
+        2
+    ],
+    "n5": "2.0.0",
+    "resolution": [
+        1,
+        1,
+        1
+    ]
+}

@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Datasets</title>
+    </head>
+    <body>
+        {% for dataset in datasets %}
+        <div><p>{{dataset.name}}</p> <img src={{dataset.thumbnail}} width=200> <a href="{{dataset.neuroglancer_link}}"> Neuroglancer  </a> </div>
+        {% endfor %}
+    </body>
+</html>
